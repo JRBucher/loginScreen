@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("river.jpeg");
+            background: linear-gradient(); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            align-items: center;
+            font-family: 'Verdana', sans-serif;
+        }
+        .border{
+           
+            backdrop-filter: drop-shadow(5px 5px 10px grey);
+            width: 300px;
+            padding: 30px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, .10);
+            align-items: center;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+
+      /* Highlight around the edge (frosted border) */
+            border: 1px solid rgba(255, 255, 255, 0.3);
+
+      /* Optional subtle inner highlight */
+            outline: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 1.0);
+            
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            border: .5px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15%;
+            width: 30%;
+            height: 350px;
+           
+        }
+        input::placeholder{
+            color: white;
+        }
+        
+        
+
+    
+    </style>
+
+</head>
+<body>
+
+    
+    
+    <div class="border" style="justify-content: center; align-items: center; margin-left: 32%; backdrop-filter: blur(3px); box-shadow: 0 0 200px rgba(255, 255, 255, 0.5);">
+    
+    <div>
+    <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, .9);" >Login</h2>
+    </div>
+    <br>
+
+    <div>
+        <label for="email"></label>
+        <input style="width: 320px; border-radius: 40px; height: 40px; font-size: 15px; text-indent: 10px;text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0); background: transparent;
+        border: .5px solid rgba(255, 255, 255, .2); color: white;" type="email" id="email" name="email" placeholder="Email or phone number">
+    </div>
+    <br>
+     <div>
+    <label for="pass"></label>
+    <input style="width: 320px; border-radius: 40px; height: 40px; text-indent: 10px; font-size: 15px; background: transparent;
+    border: .5px solid rgba(255, 255, 255, .2); font-size: 15px; color: white;" type="password" id="pass" name="pass" placeholder="Password"  required maxlength="12">
+    </div>
+    
+    <div>
+     <div style="margin-left: -190px; margin-top: 15px;">
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember" style="text-shadow: 0 0 20px rgba(0,0, 0, 1.0); font-size: 15px;">Remember me</label>
+    </div>
+    <div style="margin-left: 190px; margin-top: -19px; text-shadow: 0 0 20px rgba(0,0, 0, 1.0)">
+       <a>Forgot password?</a>
+    </div>
+    <br>
+    <div>
+
+        </div>
+        <button style="border: .5px none rgba(255, 255, 255, .2); border-radius: 40px; width: 330px; height: 45px; background-color: white; color: black; font-size: 20px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);">
+            Login
+        </button>
+         </div>
+         <br>
+
+   
+   
+     <div>
+        <button style="border: .5px none white; text-shadow: 0 0 10px rgba(255, 255, 255, .3); background: transparent; color: white; font-size: 15px;">
+            Create new account
+        </button>
+    </div>
+</div>
+
+
+
+    
+</body>
+</html>
